@@ -9,8 +9,8 @@ function mondayWork(activity = "go to the office"){
 }
 mondayWork("work from home");
 
-const wrapAdjective = function(style = '*') {
+const wrapAdjective = function(asteric= '*') {
     return function (adjective = 'special') {
-        return `You are ${style}${adjective}${style}!`
+        return `You are ${asteric}${adjective}${asteric}!`
     }
 }
